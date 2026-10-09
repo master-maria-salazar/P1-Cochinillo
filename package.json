@@ -1,0 +1,24 @@
+{
+  "name": "p1-cochinillo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@swc/core": "^1.16.2",
+    "@swc/core-win32-x64-msvc": "^1.16.2",
+    "parcel": "^2.16.4"
+  },
+  "allowScripts": {
+    "@swc/core@1.16.13": true,
+    "@parcel/watcher@2.6.0": true,
+    "lmdb@2.8.5": true,
+    "msgpackr-extract@3.0.4": true
+  }
+}
