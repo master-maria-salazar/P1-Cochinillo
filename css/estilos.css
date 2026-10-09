@@ -1055,3 +1055,19 @@ h3 {
         padding: 28px 22px;
     }
 }
+.enlace-tarjeta {
+    display: block;
+    text-decoration: none;
+    color: #33261f;
+    transition: transform 0.2s ease;
+}
+
+.enlace-tarjeta:hover {
+    color: #33261f;
+    transform: translateY(-4px);
+}
+
+.enlace-tarjeta:hover .boton-linea {
+    color: #ffffff;
+    background-color: #b94f24;
+}
