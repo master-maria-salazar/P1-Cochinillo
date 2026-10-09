@@ -12,8 +12,10 @@
   "type": "commonjs",
   "devDependencies": {
     "@swc/core": "^1.16.2",
-    "@swc/core-win32-x64-msvc": "^1.16.2",
     "parcel": "^2.16.4"
+  },
+  "optionalDependencies": {
+    "@swc/core-win32-x64-msvc": "^1.16.2"
   },
   "allowScripts": {
     "@swc/core@1.16.13": true,
