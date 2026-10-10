@@ -1071,3 +1071,7 @@ h3 {
     color: #ffffff;
     background-color: #b94f24;
 }
+.enlace-tarjeta:hover .boton-naranja {
+    background-color: #863817;
+    border-color: #863817;
+}
