@@ -1,3 +1,11 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init({
+    duration: 700,
+    once: true
+});
+
 const botonAbrir = document.getElementById("abrir-contacto");
 const modal = document.getElementById("modal-contacto");
 const botonCerrar = document.getElementById("cerrar-contacto");

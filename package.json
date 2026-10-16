@@ -10,9 +10,14 @@
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "browserslist": [
+    "since 2016"
+  ],
   "devDependencies": {
     "@swc/core": "^1.16.2",
-    "parcel": "^2.16.4"
+    "parcel": "^2.16.4",
+    "postcss": "^8.5.30",
+    "postcss-nested": "^9.0.0"
   },
   "optionalDependencies": {
     "@swc/core-win32-x64-msvc": "^1.16.2"
@@ -22,5 +27,8 @@
     "@parcel/watcher@2.6.0": true,
     "lmdb@2.8.5": true,
     "msgpackr-extract@3.0.4": true
+  },
+  "dependencies": {
+    "aos": "^2.3.4"
   }
 }
